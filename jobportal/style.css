@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #2f2f2f;
+}
+
+header {
+    background-color: rgba(55, 65, 81, 0.95);
+    color: #f9fafb;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+nav a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #7c6f64;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #374151;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+}
+
+form textarea {
+    height: 90px;
+    resize: none;
+}
+
+form input[type="submit"] {
+    background-color: #6b7280;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4b5563;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th {
+    background-color: #6b7280;
+    color: #ffffff;
+    padding: 12px;
+}
+
+table td {
+    padding: 12px;
+    background-color: #f3f4f6;
+}
+
+table tr:nth-child(even) td {
+    background-color: #e5e7eb;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+ul li, ol li {
+    padding: 6px 0;
+}
+
+footer {
+    background-color: rgba(55, 65, 81, 0.95);
+    color: #f9fafb;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
