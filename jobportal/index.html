@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Naukrishala - Job Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -11,36 +13,26 @@
     <p>Your simple job search platform</p>
 </header>
 
-<hr>
-
 <nav>
-    <a href="#">Home</a> 
-    <a href="#">Jobs</a> 
-    <a href="#">Companies</a> 
-    <a href="#">Login</a> 
+    <a href="#">Home</a>
+    <a href="#">Jobs</a>
+    <a href="#">Companies</a>
+    <a href="#">Login</a>
     <a href="#">Register</a>
 </nav>
-
-<hr>
 
 <section>
     <h2>Search for Jobs</h2>
     <form>
-        <label>Job Title:</label>
-        <input type="text" placeholder="Enter job name">
-        <br><br>
-        <label>Location:</label>
-        <input type="text" placeholder="Enter location">
-        <br><br>
+        <input type="text" placeholder="Job title">
+        <input type="text" placeholder="Location">
         <input type="submit" value="Search">
     </form>
 </section>
 
-<hr>
-
 <section>
     <h2>Latest Job Openings</h2>
-    <table border="2">
+    <table>
         <tr>
             <th>Job Role</th>
             <th>Company</th>
@@ -68,8 +60,6 @@
     </table>
 </section>
 
-<hr>
-
 <section>
     <h2>Top Companies</h2>
     <ul>
@@ -79,8 +69,6 @@
         <li>Amazon</li>
     </ul>
 </section>
-
-<hr>
 
 <section>
     <h2>Job Categories</h2>
@@ -92,36 +80,24 @@
     </ol>
 </section>
 
-<hr>
-
 <section>
     <h2>Contact Us</h2>
     <form>
-        <label>Name:</label>
         <input type="text" placeholder="Your name">
-        <br><br>
-        <label>Email:</label>
         <input type="email" placeholder="Your email">
-        <br><br>
-        <label>Reason:</label>
         <select>
-            <option value="">--Select--</option>
-            <option value="Job Query">Job Query</option>
-            <option value="Company Registration">Company Registration</option>
-            <option value="Support">Support</option>
+            <option value="">Select reason</option>
+            <option>Job Query</option>
+            <option>Company Registration</option>
+            <option>Support</option>
         </select>
-        <br><br>
-        <label>Message:</label>
-        <textarea></textarea>
-        <br><br>
+        <textarea placeholder="Your message"></textarea>
         <input type="submit" value="Submit">
     </form>
 </section>
 
-<hr>
-
 <footer>
-    &copy; 2026 Naukrishala <br>
+    © 2026 Naukrishala <br>
     Chandigarh, Mohali
 </footer>
 
